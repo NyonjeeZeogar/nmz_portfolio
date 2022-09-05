@@ -6,21 +6,15 @@ import './About.scss';
 
 const abouts = [
     { title: 'Web Development' , description:'I am a good Web Developer.', imgUrl: images.about01 },
-    { title: 'Web Design' , description:'I am a good Web Developer.', imgUrl: images.about02 },
-    { title: 'UI/UX' , description:'I am a good Web Developer.', imgUrl: images.about03 },
-    { title: 'Web Animations' , description:'I am a good Web Developer.', imgUrl: images.about04 }
+    { title: 'Frontend Development' , description:'I am a good Web Developer.', imgUrl: images.about02 },
+    { title: 'Backend Development' , description:'I am a good Web Developer.', imgUrl: images.about03 },
+    { title: 'MERN Stack' , description:'I am a good Web Developer.', imgUrl: images.about04 }
 ];
 
 const About = () => {
     return (
         <>
-            <h2 className="head-text">
-                I Know that
-                <span> Good Design</span>
-                <br />
-                means  
-                <span> Good Business</span>
-            </h2>
+            <h2 className="head-text">I Know that <span>Good Design</span> <br />Means  <span>Good Business</span></h2>
 
             <div className="app__profiles">
                 {abouts.map((about, index) => (
