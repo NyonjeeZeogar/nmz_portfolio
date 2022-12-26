@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
@@ -9,7 +9,7 @@ const abouts = [
     { title: 'Frontend Development' , description:'I am a good Web Developer.', imgUrl: images.about02 },
     { title: 'Backend Development' , description:'I am a good Web Developer.', imgUrl: images.about03 },
     { title: 'MERN Stack' , description:'I am a good Web Developer.', imgUrl: images.about04 }
-];
+]
 
 const About = () => {
     return (
